@@ -26,6 +26,8 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
 	testImplementation 'org.springframework.modulith:spring-modulith-starter-test'
+
+	implementation 'org.mnode.ical4j:ical4j:4.0.0-rc3'
 }
 
 dependencyManagement {
